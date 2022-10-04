@@ -1,6 +1,7 @@
 # Hello World example
 
 
+![buildd](https://github.com/shmdhussain/nextjs_cypress/workflows/mybuild/badge.svg)
 ![end to end test](https://github.com/shmdhussain/nextjs_cypress/workflows/E2E/badge.svg)
 
 
