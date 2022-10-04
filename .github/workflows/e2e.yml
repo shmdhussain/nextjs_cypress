@@ -4,15 +4,11 @@ on: [push]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
-
-
     steps:
     - uses: actions/checkout@v2
     - name: Cypress run
-      uses: cypress-io/github-action@v4# use the explicit version number
+      uses: cypress-io/github-action@v4
       with:
         build: npm run build
         start: npm start
